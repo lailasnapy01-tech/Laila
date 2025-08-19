@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bon Bon Donuts</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background: #e6f4ff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      background: #fff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    header {
+      background: linear-gradient(to bottom, #e6f4ff, #fff);
+      text-align: center;
+      padding: 40px 20px;
+      position: relative;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #2a6ebf;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    header img {
+      width: 200px;
+      margin-top: 20px;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #2a6ebf;
+    }
+
+    .flavors {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+    }
+
+    .flavors div {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .flavors img {
+      width: 100px;
+      border-radius: 50%;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      border-radius: 30px;
+      background: #2a6ebf;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #174d8f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Пончики БЕЗ ЗАМОРОЗКИ</h1>
+      <p>Свежие, сладкие, вкусные. Выбор за тобой!</p>
+      <img src="https://i.ibb.co/0ZJ0vBQ/donut-blue.png" alt="donut">
+    </header>
+
+    <section>
+      <h2>Выбери свой вкус</h2>
+      <div class="flavors">
+        <div>
+          <img src="https://i.ibb.co/mJrC4Pb/donut1.png" alt="">
+          <p>Карамель</p>
+        </div>
+        <div>
+          <img src="https://i.ibb.co/mG0KXcF/donut2.png" alt="">
+          <p>Шоколад</p>
+        </div>
+        <div>
+          <img src="https://i.ibb.co/3WwGdQJ/donut3.png" alt="">
+          <p>Клубника</p>
+        </div>
+        <div>
+          <img src="https://i.ibb.co/Z1pChY5/donut4.png" alt="">
+          <p>Глазурь</p>
+        </div>
+      </div>
+      <a href="#" class="btn">Собрать коробку</a>
+    </section>
+
+    <section>
+      <h2>История создания</h2>
+      <p>Наши пончики готовятся по традиционным рецептам, сохраняя вкус и свежесть.</p>
+    </section>
+
+    <section>
+      <h2>Доставка и Оплата</h2>
+      <p>Мы доставляем свежие пончики по Санкт-Петербургу.</p>
+      <p>Скидка 5% при онлайн оплате!</p>
+    </section>
+
+    <footer>
+      <p>© 2025 Bon Bon Donuts. Все права защищены.</p>
+    </footer>
+  </div>
+</body>
+</html>
